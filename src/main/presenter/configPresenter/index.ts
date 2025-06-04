@@ -709,7 +709,7 @@ export class ConfigPresenter implements IConfigPresenter {
     try {
       const customPrompts = await this.getCustomPrompts()
       if (customPrompts && customPrompts.length > 0) {
-        const customPromptsServerName = 'deepchat-inmemory/custom-prompts-server'
+        const customPromptsServerName = 'mcpchat-inmemory/custom-prompts-server'
         const systemServers = SYSTEM_INMEM_MCP_SERVERS[customPromptsServerName]
 
         if (systemServers && !servers[customPromptsServerName]) {

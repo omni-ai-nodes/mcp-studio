@@ -98,7 +98,7 @@ export class RagflowKnowledgeServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/ragflow-knowledge-server',
+        name: 'mcpchat-inmemory/ragflow-knowledge-server',
         version: '0.1.0'
       },
       {

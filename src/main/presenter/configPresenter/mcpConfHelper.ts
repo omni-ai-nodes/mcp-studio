@@ -139,36 +139,36 @@ const DEFAULT_INMEMORY_SERVERS: Record<string, MCPServerConfig> = {
     },
     disable: false
   },
-  'deepchat-inmemory/deep-research-server': {
+  'mcpchat-inmemory/deep-research-server': {
     args: [],
     descriptions:
       'DeepChat内置深度研究服务，使用博查搜索(注意该服务需要较长的上下文模型，请勿在短上下文的模型中使用)',
     icons: '🔬',
     autoApprove: ['all'],
     type: 'inmemory' as MCPServerType,
-    command: 'deepchat-inmemory/deep-research-server',
+    command: 'mcpchat-inmemory/deep-research-server',
     env: {
       BOCHA_API_KEY: 'YOUR_BOCHA_API_KEY'
     },
     disable: false
   },
-  'deepchat-inmemory/auto-prompting-server': {
+  'mcpchat-inmemory/auto-prompting-server': {
     args: [],
     descriptions: 'DeepChat内置自动模板提示词服务',
     icons: '📜',
     autoApprove: ['all'],
     type: 'inmemory' as MCPServerType,
-    command: 'deepchat-inmemory/auto-prompting-server',
+    command: 'mcpchat-inmemory/auto-prompting-server',
     env: {},
     disable: false
   },
-  'deepchat-inmemory/conversation-search-server': {
+  'mcpchat-inmemory/conversation-search-server': {
     args: [],
     descriptions: 'DeepChat built-in conversation history search service',
     icons: '🔍',
     autoApprove: ['all'],
     type: 'inmemory' as MCPServerType,
-    command: 'deepchat-inmemory/conversation-search-server',
+    command: 'mcpchat-inmemory/conversation-search-server',
     env: {},
     disable: false
   }
@@ -195,8 +195,8 @@ const DEFAULT_MCP_SERVERS = {
 }
 // 这部分mcp有系统逻辑判断是否启用，不受用户配置控制，受软件环境控制
 export const SYSTEM_INMEM_MCP_SERVERS: Record<string, MCPServerConfig> = {
-  'deepchat-inmemory/custom-prompts-server': {
-    command: 'deepchat-inmemory/custom-prompts-server',
+  'mcpchat-inmemory/custom-prompts-server': {
+    command: 'mcpchat-inmemory/custom-prompts-server',
     args: [],
     env: {},
     descriptions: 'DeepChat内置自定义提示词服务',

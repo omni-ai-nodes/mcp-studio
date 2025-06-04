@@ -534,7 +534,7 @@ export class DeepResearchServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/deep-research-server',
+        name: 'mcpchat-inmemory/deep-research-server',
         version: '1.0.0'
       },
       {

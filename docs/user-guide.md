@@ -28,7 +28,7 @@ Welcome to DeepChat! This guide will walk you through installing DeepChat, confi
 
 ## Installation and Setup
 
-To get started with DeepChat, download the latest version for your operating system from the [GitHub Releases page](https://github.com/ThinkInAIXYZ/deepchat/releases).
+To get started with DeepChat, download the latest version for your operating system from the [GitHub Releases page](https://github.com/ThinkInAIXYZ/mcpchat/releases).
 
 -   **Windows**: Download the `.exe` installer.
 -   **macOS**: Download the `.dmg` installation file.
@@ -176,7 +176,7 @@ DeepChat utilizes rich DeepLink support, which allows:
 
 ---
 
-This user guide should help you get the most out of DeepChat. For more detailed information on specific features or for troubleshooting, please refer to the project's [GitHub repository](https://github.com/ThinkInAIXYZ/deepchat) or the community forums.The `README.md` provided a lot of useful information for creating the user guide. I've structured the guide as requested, covering installation, LLM configuration (cloud and local), basic and advanced chat functionalities, search enhancement, tool calling (MCP), and privacy/security features. I also included a section on DeepLink support as it was highlighted in the README.
+This user guide should help you get the most out of DeepChat. For more detailed information on specific features or for troubleshooting, please refer to the project's [GitHub repository](https://github.com/ThinkInAIXYZ/mcpchat) or the community forums.The `README.md` provided a lot of useful information for creating the user guide. I've structured the guide as requested, covering installation, LLM configuration (cloud and local), basic and advanced chat functionalities, search enhancement, tool calling (MCP), and privacy/security features. I also included a section on DeepLink support as it was highlighted in the README.
 
 I've used the information from `README.md` for download links, feature descriptions, and supported LLM providers. The content is generic where specific UI elements are unknown, but provides a comprehensive overview based on the project's description.
 

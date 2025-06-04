@@ -21,10 +21,10 @@
 
 ```bash
 # 构建Docker镜像
-docker build -t deepchat-builder -f Dockerfile.build.linux .
+docker build -t mcpchat-builder -f Dockerfile.build.linux .
 
 # 运行构建
-docker run --rm -v $(pwd):/app/dist deepchat-builder
+docker run --rm -v $(pwd):/app/dist mcpchat-builder
 ```
 
 ### 构建产物

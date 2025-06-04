@@ -13,7 +13,7 @@ Use this deeplink to quickly start a new chat session with optional model select
 ### URL格式 / URL Format
 
 ```
-deepchat://start?msg={query}&system={systemPrompt}&model={modelId|modelName}
+mcpchat://start?msg={query}&system={systemPrompt}&model={modelId|modelName}
 ```
 
 ### 参数说明 / Parameters
@@ -40,21 +40,21 @@ deepchat://start?msg={query}&system={systemPrompt}&model={modelId|modelName}
 Basic usage, open a conversation with GPT-3.5:
 
 ```
-deepchat://start?model=gpt-3.5-turbo
+mcpchat://start?model=gpt-3.5-turbo
 ```
 
 指定初始消息：
 Specify an initial message:
 
 ```
-deepchat://start?msg=帮我写一篇关于人工智能的文章
+mcpchat://start?msg=帮我写一篇关于人工智能的文章
 ```
 
 完整示例（指定模型、消息和系统提示词）：
 Complete example (specifying model, message, and system prompt):
 
 ```
-deepchat://start?msg=帮我分析这段代码&model=deepseek-coder&system=你是一个代码分析专家
+mcpchat://start?msg=帮我分析这段代码&model=deepseek-coder&system=你是一个代码分析专家
 ```
 
 ## 安装MCP / Install MCP
@@ -66,7 +66,7 @@ Use this deeplink to install Model Control Protocol (MCP) service configuration.
 ### URL格式 / URL Format
 
 ```
-deepchat://mcp/install?code={base64Encode(JSON.stringify(jsonConfig))}
+mcpchat://mcp/install?code={base64Encode(JSON.stringify(jsonConfig))}
 ```
 
 ### 参数说明 / Parameters
@@ -168,17 +168,17 @@ const code =encode(JSON.stringify(config))
 
 ## 聊天唤起样例 (Chat Example)
 ```
-deepchat://start?msg=%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99&system=%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E9%A2%84%E6%8A%A5%E5%91%98%2C%E8%AF%B7%E4%BD%A0%E7%A4%BC%E8%B2%8C%E8%80%8C%E4%B8%93%E4%B8%9A%E5%9B%9E%E7%AD%94%E7%94%A8%E6%88%B7%E9%97%AE%E9%A2%98&model=deepseek-chat
+mcpchat://start?msg=%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99&system=%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E9%A2%84%E6%8A%A5%E5%91%98%2C%E8%AF%B7%E4%BD%A0%E7%A4%BC%E8%B2%8C%E8%80%8C%E4%B8%93%E4%B8%9A%E5%9B%9E%E7%AD%94%E7%94%A8%E6%88%B7%E9%97%AE%E9%A2%98&model=deepseek-chat
 ```
 
 ## STDIO 安装样例 (Stdio Example)
 
 ```
-deepchat://mcp/install?code=eyJtY3BTZXJ2ZXJzIjp7ImZpbGVzeXN0ZW0iOnsiY29tbWFuZCI6Im1jcC1maWxlc3lzdGVtLXNlcnZlciIsImFyZ3MiOlsiL1VzZXJzL3VzZXJuYW1lL0Rlc2t0b3AiXX19fQ==
+mcpchat://mcp/install?code=eyJtY3BTZXJ2ZXJzIjp7ImZpbGVzeXN0ZW0iOnsiY29tbWFuZCI6Im1jcC1maWxlc3lzdGVtLXNlcnZlciIsImFyZ3MiOlsiL1VzZXJzL3VzZXJuYW1lL0Rlc2t0b3AiXX19fQ==
 ```
 
 ## SSE 安装样例 (SSE Example)
 
 ```
-deepchat://mcp/install?code=eyJtY3BTZXJ2ZXJzIjp7ImJyb3dzZXItdXNlLW1jcC1zZXJ2ZXIiOnsidXJsIjoiaHR0cDovL2xvY2FsaG9zdDo4MDAwL3NzZSJ9fX0=
+mcpchat://mcp/install?code=eyJtY3BTZXJ2ZXJzIjp7ImJyb3dzZXItdXNlLW1jcC1zZXJ2ZXIiOnsidXJsIjoiaHR0cDovL2xvY2FsaG9zdDo4MDAwL3NzZSJ9fX0=
 ```

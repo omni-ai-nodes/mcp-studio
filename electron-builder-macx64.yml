@@ -1,4 +1,4 @@
-appId: com.wefonk.deepchat
+appId: com.wefonk.mcpchat
 productName: DeepChat
 directories:
   buildResources: build
@@ -65,4 +65,4 @@ mac:
 npmRebuild: true
 publish:
   provider: generic
-  url: https://cdn.deepchatai.cn/upgrade/
+  url: https://cdn.mcpchatai.cn/upgrade/

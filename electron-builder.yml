@@ -1,4 +1,4 @@
-appId: com.wefonk.deepchat
+appId: com.wefonk.mcpchat
 productName: DeepChat
 directories:
   buildResources: build
@@ -80,8 +80,8 @@ linux:
   category: Utility
   artifactName: ${name}-${version}-linux-${arch}.${ext}
   mimeTypes:
-    - x-scheme-handler/deepchat
+    - x-scheme-handler/mcpchat
 npmRebuild: true
 publish:
   provider: generic
-  url: https://cdn.deepchatai.cn/upgrade/
+  url: https://cdn.mcpchatai.cn/upgrade/

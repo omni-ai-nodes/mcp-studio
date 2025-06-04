@@ -404,7 +404,7 @@ export class OpenAIResponsesProvider extends BaseLLMProvider {
               type: 'image_data',
               image_data: {
                 data: cachedUrl,
-                mimeType: 'deepchat/image-url'
+                mimeType: 'mcpchat/image-url'
               }
             }
 
@@ -428,7 +428,7 @@ export class OpenAIResponsesProvider extends BaseLLMProvider {
               type: 'image_data',
               image_data: {
                 data: result.data[0]?.url || result.data[0]?.b64_json,
-                mimeType: 'deepchat/image-url'
+                mimeType: 'mcpchat/image-url'
               }
             }
             yield { type: 'stop', stop_reason: 'complete' }

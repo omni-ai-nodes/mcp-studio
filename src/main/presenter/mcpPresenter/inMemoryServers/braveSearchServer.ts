@@ -92,7 +92,7 @@ export class BraveSearchServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/brave-search-server',
+        name: 'mcpchat-inmemory/brave-search-server',
         version: '0.1.0'
       },
       {
@@ -168,7 +168,7 @@ export class BraveSearchServer {
           type: 'resource',
           resource: {
             uri: r.url,
-            mimeType: 'application/deepchat-webpage',
+            mimeType: 'application/mcpchat-webpage',
             text: JSON.stringify(blobContent)
           }
         }
@@ -244,7 +244,7 @@ export class BraveSearchServer {
           type: 'resource',
           resource: {
             uri: `brave-local://${poi.id}`,
-            mimeType: 'application/deepchat-local-business',
+            mimeType: 'application/mcpchat-local-business',
             text: JSON.stringify(blobContent)
           }
         }

@@ -34,7 +34,7 @@ export abstract class BaseLLMProvider {
   protected configPresenter: ConfigPresenter
 
   protected defaultHeaders: Record<string, string> = {
-    'HTTP-Referer': 'https://deepchatai.cn',
+    'HTTP-Referer': 'https://mcpchatai.cn',
     'X-Title': 'DeepChat'
   }
 

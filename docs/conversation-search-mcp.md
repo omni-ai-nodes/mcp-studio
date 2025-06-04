@@ -2,7 +2,7 @@
 
 ## Overview
 
-`deepchat-inmemory/conversation-search-server` is a built-in MCP server for searching and analyzing DeepChat's historical conversation records. It provides powerful search functionality that can find keywords in conversation titles and message contents, and also provides conversation statistics.
+`mcpchat-inmemory/conversation-search-server` is a built-in MCP server for searching and analyzing DeepChat's historical conversation records. It provides powerful search functionality that can find keywords in conversation titles and message contents, and also provides conversation statistics.
 
 ## Features
 

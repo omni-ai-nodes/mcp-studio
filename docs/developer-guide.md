@@ -97,8 +97,8 @@ To set up your local development environment for DeepChat:
 4.  **Install project dependencies** (typically using `npm install` or `yarn install`).
 
 Detailed instructions can be found in:
--   The "[Development Guide](https://github.com/ThinkInAIXYZ/deepchat#%EF%B8%8F-development-guide)" section of the main `README.md` file.
--   The "[Local Development Setup](https://github.com/ThinkInAIXYZ/deepchat/blob/main/CONTRIBUTING.md#local-development-setup)" section of `CONTRIBUTING.md`.
+-   The "[Development Guide](https://github.com/ThinkInAIXYZ/mcpchat#%EF%B8%8F-development-guide)" section of the main `README.md` file.
+-   The "[Local Development Setup](https://github.com/ThinkInAIXYZ/mcpchat/blob/main/CONTRIBUTING.md#local-development-setup)" section of `CONTRIBUTING.md`.
 
 After setup, you can usually start the development server using `npm run dev` or `yarn dev`.
 
@@ -106,9 +106,9 @@ After setup, you can usually start the development server using `npm run dev` or
 
 Instructions for building the DeepChat application for different platforms (Windows, macOS, Linux) and architectures are available in the `README.md`:
 
--   Refer to the "[Build](https://github.com/ThinkInAIXYZ/deepchat#build)" section in the main `README.md` file for the necessary commands (e.g., `npm run build:win`, `npm run build:mac`, `npm run build:linux`).
+-   Refer to the "[Build](https://github.com/ThinkInAIXYZ/mcpchat#build)" section in the main `README.md` file for the necessary commands (e.g., `npm run build:win`, `npm run build:mac`, `npm run build:linux`).
 
-The `README.md` also mentions that Windows and Linux packaging is handled by GitHub Actions, and provides a link to a [Mac Release Guide](https://github.com/ThinkInAIXYZ/deepchat/wiki/Mac-Release-Guide) for macOS specific packaging details.
+The `README.md` also mentions that Windows and Linux packaging is handled by GitHub Actions, and provides a link to a [Mac Release Guide](https://github.com/ThinkInAIXYZ/mcpchat/wiki/Mac-Release-Guide) for macOS specific packaging details.
 
 ## Contribution Guidelines
 
@@ -120,7 +120,7 @@ If you wish to contribute to DeepChat, please review the contribution guidelines
 
 The full guidelines can be found in:
 -   [CONTRIBUTING.md](./CONTRIBUTING.md)
--   The "[Community & Contribution](https://github.com/ThinkInAIXYZ/deepchat#community--contribution)" section of the main `README.md` file.
+-   The "[Community & Contribution](https://github.com/ThinkInAIXYZ/mcpchat#community--contribution)" section of the main `README.md` file.
 
 ---
 

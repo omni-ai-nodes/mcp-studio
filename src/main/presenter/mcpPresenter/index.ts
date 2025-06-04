@@ -128,8 +128,8 @@ export class McpPresenter implements IMCPPresenter {
         console.error('[MCP] npm registry speed test failed:', error)
       }
 
-      // 检查并启动 deepchat-inmemory/custom-prompts-server
-      const customPromptsServerName = 'deepchat-inmemory/custom-prompts-server'
+      // 检查并启动 mcpchat-inmemory/custom-prompts-server
+      const customPromptsServerName = 'mcpchat-inmemory/custom-prompts-server'
       if (servers[customPromptsServerName]) {
         console.log(`[MCP] Attempting to start custom prompts server: ${customPromptsServerName}`)
 
@@ -188,7 +188,7 @@ export class McpPresenter implements IMCPPresenter {
 
   // 检查并管理自定义提示词服务器
   private async checkAndManageCustomPromptsServer(): Promise<void> {
-    const customPromptsServerName = 'deepchat-inmemory/custom-prompts-server'
+    const customPromptsServerName = 'mcpchat-inmemory/custom-prompts-server'
 
     try {
       // 获取当前自定义提示词

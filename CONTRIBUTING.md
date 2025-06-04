@@ -40,8 +40,8 @@ We use GitHub to host code, to track issues and feature requests, as well as acc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/deepchat.git
-   cd deepchat
+   git clone https://github.com/yourusername/mcpchat.git
+   cd mcpchat
    ```
 
 2. Install required development tools:

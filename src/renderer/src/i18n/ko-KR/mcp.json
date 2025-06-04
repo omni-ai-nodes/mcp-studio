@@ -171,19 +171,19 @@
       "name": "FastGPT 지식 베이스 검색",
       "desc": "FastGPT 지식 베이스 검색 서비스, FastGPT 지식 베이스 콘텐츠를 검색할 수 있습니다"
     },
-    "deepchat-inmemory/custom-prompts-server": {
+    "mcpchat-inmemory/custom-prompts-server": {
       "desc": "DeepChat 내장 사용자 정의 프롬프트 단어 서비스",
       "name": "사용자 정의 프롬프트 단어"
     },
-    "deepchat-inmemory/deep-research-server": {
+    "mcpchat-inmemory/deep-research-server": {
       "desc": "Bocha 검색을 기반으로 한 DeepChat 내장 내장 연구 서비스 (긴 컨텍스트 모델을 사용해야하고 컨텍스트가 불충분 한 모델이 실패 할 수 있습니다)",
       "name": "DeepResearch"
     },
-    "deepchat-inmemory/auto-prompting-server": {
+    "mcpchat-inmemory/auto-prompting-server": {
       "name": "자동 템플릿 프롬프트",
       "desc": "사용자 입력을 기반으로 가장 적합한 사용자 정의 프롬프트를 자동으로 선택하고, 프롬프트 템플릿을 지능적으로 채웁니다."
     },
-    "deepchat-inmemory/conversation-search-server": {
+    "mcpchat-inmemory/conversation-search-server": {
       "name": "대화 기록 검색",
       "desc": "DeepChat 내장 대화 기록 검색 서비스, 과거 대화 기록과 메시지 내용을 검색할 수 있습니다"
     }

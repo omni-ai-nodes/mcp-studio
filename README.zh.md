@@ -7,12 +7,12 @@
 <p align="center">DeepChat是一个功能丰富的开源AI聊天平台，支持多种云端和本地大语言模型，提供强大的搜索增强和工具调用能力。</p>
 
 <p align="center">
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/stargazers"><img src="https://img.shields.io/github/stars/ThinkInAIXYZ/deepchat" alt="Stars Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/network/members"><img src="https://img.shields.io/github/forks/ThinkInAIXYZ/deepchat" alt="Forks Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/pulls"><img src="https://img.shields.io/github/issues-pr/ThinkInAIXYZ/deepchat" alt="Pull Requests Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/issues"><img src="https://img.shields.io/github/issues/ThinkInAIXYZ/deepchat" alt="Issues Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ThinkInAIXYZ/deepchat" alt="License Badge"/></a>
-  <a href="https://deepwiki.com/ThinkInAIXYZ/deepchat"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/stargazers"><img src="https://img.shields.io/github/stars/ThinkInAIXYZ/mcpchat" alt="Stars Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/network/members"><img src="https://img.shields.io/github/forks/ThinkInAIXYZ/mcpchat" alt="Forks Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/pulls"><img src="https://img.shields.io/github/issues-pr/ThinkInAIXYZ/mcpchat" alt="Pull Requests Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/issues"><img src="https://img.shields.io/github/issues/ThinkInAIXYZ/mcpchat" alt="Issues Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ThinkInAIXYZ/mcpchat" alt="License Badge"/></a>
+  <a href="https://deepwiki.com/ThinkInAIXYZ/mcpchat"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 
 <div align="center">
@@ -23,7 +23,7 @@
 
 - [📑 目录](#-目录)
 - [🚀 项目简介](#-项目简介)
-- [💡 为什么选择DeepChat](#-为什么选择deepchat)
+- [💡 为什么选择DeepChat](#-为什么选择mcpchat)
 - [🔥 主要功能](#-主要功能)
 - [🤖 支持的模型提供商](#-支持的模型提供商)
   - [兼容任何OpenAI/Gemini/Anthropic API格式的模型提供商](#兼容任何openaigeminianthropic-api格式的模型提供商)
@@ -220,7 +220,7 @@ DeepChat适用于多种AI应用场景：
 
 ### 下载安装
 
-从[GitHub Releases](https://github.com/ThinkInAIXYZ/deepchat/releases)页面下载适合您系统的最新版本：
+从[GitHub Releases](https://github.com/ThinkInAIXYZ/mcpchat/releases)页面下载适合您系统的最新版本：
 
 - Windows: `.exe`安装文件
 - macOS: `.dmg`安装文件
@@ -244,7 +244,7 @@ DeepChat适用于多种AI应用场景：
 请阅读[贡献指南](./CONTRIBUTING.md)
 
 Windows和Linux通过GitHub Action打包。
-对于Mac相关的签名和打包，请参考[Mac发布指南](https://github.com/ThinkInAIXYZ/deepchat/wiki/Mac-Release-Guide)。
+对于Mac相关的签名和打包，请参考[Mac发布指南](https://github.com/ThinkInAIXYZ/mcpchat/wiki/Mac-Release-Guide)。
 
 ### 安装依赖
 
@@ -294,24 +294,24 @@ $ npm run build:linux:arm64
 
 DeepChat是一个活跃的开源社区项目，我们欢迎各种形式的贡献：
 
-- 🐛 [报告问题](https://github.com/ThinkInAIXYZ/deepchat/issues)
-- 💡 [提交功能建议](https://github.com/ThinkInAIXYZ/deepchat/issues)
-- 🔧 [提交代码改进](https://github.com/ThinkInAIXYZ/deepchat/pulls)
-- 📚 [完善文档](https://github.com/ThinkInAIXYZ/deepchat/wiki)
-- 🌍 [帮助翻译](https://github.com/ThinkInAIXYZ/deepchat/tree/main/locales)
+- 🐛 [报告问题](https://github.com/ThinkInAIXYZ/mcpchat/issues)
+- 💡 [提交功能建议](https://github.com/ThinkInAIXYZ/mcpchat/issues)
+- 🔧 [提交代码改进](https://github.com/ThinkInAIXYZ/mcpchat/pulls)
+- 📚 [完善文档](https://github.com/ThinkInAIXYZ/mcpchat/wiki)
+- 🌍 [帮助翻译](https://github.com/ThinkInAIXYZ/mcpchat/tree/main/locales)
 
 查看[贡献指南](./CONTRIBUTING.md)了解更多参与项目的方式。
 
 ## ⭐ Star历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ThinkInAIXYZ/deepchat&type=Timeline)](https://www.star-history.com/#ThinkInAIXYZ/deepchat&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=ThinkInAIXYZ/mcpchat&type=Timeline)](https://www.star-history.com/#ThinkInAIXYZ/mcpchat&Timeline)
 
 ## 👨‍💻 贡献者
 
-感谢您考虑为deepchat做出贡献！贡献指南可以在[贡献指南](./CONTRIBUTING.md)中找到。
+感谢您考虑为mcpchat做出贡献！贡献指南可以在[贡献指南](./CONTRIBUTING.md)中找到。
 
-<a href="https://github.com/ThinkInAIXYZ/deepchat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ThinkInAIXYZ/deepchat" alt="DeepChat项目贡献者" />
+<a href="https://github.com/ThinkInAIXYZ/mcpchat/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ThinkInAIXYZ/mcpchat" alt="DeepChat项目贡献者" />
 </a>
 
 ## 📃 许可证

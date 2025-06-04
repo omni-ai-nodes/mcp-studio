@@ -7,12 +7,12 @@
 <p align="center">DeepChatは、複数のクラウドおよびローカル大規模言語モデルをサポートする機能豊富なオープンソースAIチャットプラットフォームです。強力な検索強化機能とツール呼び出し機能を提供します。</p>
 
 <p align="center">
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/stargazers"><img src="https://img.shields.io/github/stars/ThinkInAIXYZ/deepchat" alt="Stars Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/network/members"><img src="https://img.shields.io/github/forks/ThinkInAIXYZ/deepchat" alt="Forks Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/pulls"><img src="https://img.shields.io/github/issues-pr/ThinkInAIXYZ/deepchat" alt="Pull Requests Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/issues"><img src="https://img.shields.io/github/issues/ThinkInAIXYZ/deepchat" alt="Issues Badge"/></a>
-  <a href="https://github.com/ThinkInAIXYZ/deepchat/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ThinkInAIXYZ/deepchat" alt="License Badge"/></a>
-  <a href="https://deepwiki.com/ThinkInAIXYZ/deepchat"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/stargazers"><img src="https://img.shields.io/github/stars/ThinkInAIXYZ/mcpchat" alt="Stars Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/network/members"><img src="https://img.shields.io/github/forks/ThinkInAIXYZ/mcpchat" alt="Forks Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/pulls"><img src="https://img.shields.io/github/issues-pr/ThinkInAIXYZ/mcpchat" alt="Pull Requests Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/issues"><img src="https://img.shields.io/github/issues/ThinkInAIXYZ/mcpchat" alt="Issues Badge"/></a>
+  <a href="https://github.com/ThinkInAIXYZ/mcpchat/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ThinkInAIXYZ/mcpchat" alt="License Badge"/></a>
+  <a href="https://deepwiki.com/ThinkInAIXYZ/mcpchat"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 
 <div align="center">
@@ -23,7 +23,7 @@
 
 - [📑 目次](#-目次)
 - [🚀 プロジェクト紹介](#-プロジェクト紹介)
-- [💡 なぜDeepChatを選ぶのか](#-なぜdeepchatを選ぶのか)
+- [💡 なぜDeepChatを選ぶのか](#-なぜmcpchatを選ぶのか)
 - [🔥 主な機能](#-主な機能)
 - [🤖 サポートされているモデルプロバイダー](#-サポートされているモデルプロバイダー)
   - [OpenAI/Gemini/Anthropic API形式の任意のモデルプロバイダーと互換性あり](#openaigeminianthropic-api形式の任意のモデルプロバイダーと互換性あり)
@@ -220,7 +220,7 @@ DeepChatは様々なAIアプリケーションシナリオに適しています�
 
 ### ダウンロードとインストール
 
-[GitHub Releases](https://github.com/ThinkInAIXYZ/deepchat/releases)ページからお使いのシステム用の最新バージョンをダウンロードしてください：
+[GitHub Releases](https://github.com/ThinkInAIXYZ/mcpchat/releases)ページからお使いのシステム用の最新バージョンをダウンロードしてください：
 
 - Windows: `.exe`インストールファイル
 - macOS: `.dmg`インストールファイル
@@ -244,7 +244,7 @@ DeepChatは様々なAIアプリケーションシナリオに適しています�
 [貢献ガイドライン](./CONTRIBUTING.md)をお読みください。
 
 WindowsとLinuxはGitHub Actionによってパッケージングされます。
-Mac関連の署名とパッケージングについては、[Mac リリースガイド](https://github.com/ThinkInAIXYZ/deepchat/wiki/Mac-Release-Guide)を参照してください。
+Mac関連の署名とパッケージングについては、[Mac リリースガイド](https://github.com/ThinkInAIXYZ/mcpchat/wiki/Mac-Release-Guide)を参照してください。
 
 ### 依存関係のインストール
 
@@ -294,24 +294,24 @@ $ npm run build:linux:arm64
 
 DeepChatはアクティブなオープンソースコミュニティプロジェクトであり、様々な形での貢献を歓迎します：
 
-- 🐛 [問題を報告する](https://github.com/ThinkInAIXYZ/deepchat/issues)
-- 💡 [機能の提案を提出する](https://github.com/ThinkInAIXYZ/deepchat/issues)
-- 🔧 [コードの改善を提出する](https://github.com/ThinkInAIXYZ/deepchat/pulls)
-- 📚 [ドキュメントを改善する](https://github.com/ThinkInAIXYZ/deepchat/wiki)
-- 🌍 [翻訳を手伝う](https://github.com/ThinkInAIXYZ/deepchat/tree/main/locales)
+- 🐛 [問題を報告する](https://github.com/ThinkInAIXYZ/mcpchat/issues)
+- 💡 [機能の提案を提出する](https://github.com/ThinkInAIXYZ/mcpchat/issues)
+- 🔧 [コードの改善を提出する](https://github.com/ThinkInAIXYZ/mcpchat/pulls)
+- 📚 [ドキュメントを改善する](https://github.com/ThinkInAIXYZ/mcpchat/wiki)
+- 🌍 [翻訳を手伝う](https://github.com/ThinkInAIXYZ/mcpchat/tree/main/locales)
 
 プロジェクトへの参加方法について詳しく知るには、[貢献ガイドライン](./CONTRIBUTING.md)をご確認ください。
 
 ## ⭐ スター履歴
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ThinkInAIXYZ/deepchat&type=Timeline)](https://www.star-history.com/#ThinkInAIXYZ/deepchat&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=ThinkInAIXYZ/mcpchat&type=Timeline)](https://www.star-history.com/#ThinkInAIXYZ/mcpchat&Timeline)
 
 ## 👨‍💻 貢献者
 
-deepchatへの貢献をご検討いただきありがとうございます！貢献ガイドは[貢献ガイドライン](./CONTRIBUTING.md)でご確認いただけます。
+mcpchatへの貢献をご検討いただきありがとうございます！貢献ガイドは[貢献ガイドライン](./CONTRIBUTING.md)でご確認いただけます。
 
-<a href="https://github.com/ThinkInAIXYZ/deepchat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ThinkInAIXYZ/deepchat" alt="DeepChatプロジェクト貢献者" />
+<a href="https://github.com/ThinkInAIXYZ/mcpchat/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ThinkInAIXYZ/mcpchat" alt="DeepChatプロジェクト貢献者" />
 </a>
 
 ## 📃 ライセンス

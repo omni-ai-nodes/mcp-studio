@@ -6,7 +6,7 @@
         <div class="flex justify-center">
           <template v-if="block.image_data">
             <img
-              v-if="block.image_data.mimeType === 'deepchat/image-url'"
+              v-if="block.image_data.mimeType === 'mcpchat/image-url'"
               :src="`${block.image_data.data}`"
               class="max-w-[400px] rounded-md cursor-pointer hover:shadow-md transition-shadow"
               @click="openFullImage"
@@ -43,7 +43,7 @@
         <div class="flex items-center justify-center">
           <template v-if="block.image_data">
             <img
-              v-if="block.image_data.mimeType === 'deepchat/image-url'"
+              v-if="block.image_data.mimeType === 'mcpchat/image-url'"
               :src="block.image_data.data"
               class="rounded-md max-h-[80vh] max-w-full object-contain"
             />

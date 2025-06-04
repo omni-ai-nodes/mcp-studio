@@ -24,11 +24,11 @@ interface MCPInstallConfig {
 
 /**
  * DeepLink 处理器类
- * 负责处理 deepchat:// 协议的链接
- * deepchat://start 唤起应用，进入到默认的新会话界面
- * deepchat://start?msg=你好 唤起应用，进入新会话界面，并且带上默认消息
- * deepchat://start?msg=你好&model=deepseek-chat 唤起应用，进入新会话界面，并且带上默认消息，model先进行完全匹配，选中第一个命中的。没有命中的就进行模糊匹配，只要包含这个字段的第一个返回，如果都没有就忽略用默认
- * deepchat://mcp/install?json=base64JSONData 通过json数据直接安装mcp
+ * 负责处理 mcpchat:// 协议的链接
+ * mcpchat://start 唤起应用，进入到默认的新会话界面
+ * mcpchat://start?msg=你好 唤起应用，进入新会话界面，并且带上默认消息
+ * mcpchat://start?msg=你好&model=deepseek-chat 唤起应用，进入新会话界面，并且带上默认消息，model先进行完全匹配，选中第一个命中的。没有命中的就进行模糊匹配，只要包含这个字段的第一个返回，如果都没有就忽略用默认
+ * mcpchat://mcp/install?json=base64JSONData 通过json数据直接安装mcp
  */
 export class DeeplinkPresenter implements IDeeplinkPresenter {
   private startupUrl: string | null = null
@@ -38,12 +38,12 @@ export class DeeplinkPresenter implements IDeeplinkPresenter {
     // 注册协议处理器
     if (process.defaultApp) {
       if (process.argv.length >= 2) {
-        app.setAsDefaultProtocolClient('deepchat', process.execPath, [
+        app.setAsDefaultProtocolClient('mcpchat', process.execPath, [
           path.resolve(process.argv[1])
         ])
       }
     } else {
-      app.setAsDefaultProtocolClient('deepchat')
+      app.setAsDefaultProtocolClient('mcpchat')
     }
 
     // 处理 macOS 上协议被调用的情况
@@ -94,7 +94,7 @@ export class DeeplinkPresenter implements IDeeplinkPresenter {
         }
         if (process.platform === 'win32') {
           // 在 Windows 上，命令行参数包含协议 URL
-          const deepLinkUrl = commandLine.find((arg) => arg.startsWith('deepchat://'))
+          const deepLinkUrl = commandLine.find((arg) => arg.startsWith('mcpchat://'))
           if (deepLinkUrl) {
             if (!app.isReady()) {
               console.log('Windows: App not ready yet, saving URL:', deepLinkUrl)
@@ -138,7 +138,7 @@ export class DeeplinkPresenter implements IDeeplinkPresenter {
     try {
       const urlObj = new URL(url)
 
-      if (urlObj.protocol !== 'deepchat:') {
+      if (urlObj.protocol !== 'mcpchat:') {
         console.error('Unsupported protocol:', urlObj.protocol)
         return
       }

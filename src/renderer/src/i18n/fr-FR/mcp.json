@@ -171,19 +171,19 @@
       "name": "Recherche dans la base de connaissances FastGPT",
       "desc": "Service de recherche dans la base de connaissances FastGPT, peut rechercher le contenu de la base de connaissances FastGPT"
     },
-    "deepchat-inmemory/custom-prompts-server": {
+    "mcpchat-inmemory/custom-prompts-server": {
       "desc": "Service de mot invite personnalisé intégré Deepchat intégré",
       "name": "Mots rapides personnalisés"
     },
-    "deepchat-inmemory/deep-research-server": {
+    "mcpchat-inmemory/deep-research-server": {
       "desc": "Un service de recherche approfondi de Deepchat basé sur la recherche de bocha (notez que des modèles de contexte longs doivent être utilisés, et les modèles avec un contexte insuffisant peuvent échouer)",
       "name": "Recherche en profondeur"
     },
-    "deepchat-inmemory/auto-prompting-server": {
+    "mcpchat-inmemory/auto-prompting-server": {
       "name": "Génération Automatique de Prompt par Modèle",
       "desc": "Sélectionne automatiquement le prompt personnalisé le plus adapté en fonction de l'entrée de l'utilisateur et remplit intelligemment le modèle de prompt."
     },
-    "deepchat-inmemory/conversation-search-server": {
+    "mcpchat-inmemory/conversation-search-server": {
       "name": "Recherche d'Historique de Conversation",
       "desc": "Service de recherche d'historique de conversation intégré DeepChat, peut rechercher les enregistrements de conversation historiques et le contenu des messages"
     }

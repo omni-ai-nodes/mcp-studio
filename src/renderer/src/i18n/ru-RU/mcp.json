@@ -171,19 +171,19 @@
       "name": "Поиск в базе знаний FastGPT",
       "desc": "Служба поиска в базе знаний FastGPT, может выполнять поиск по содержимому базы знаний FastGPT"
     },
-    "deepchat-inmemory/custom-prompts-server": {
+    "mcpchat-inmemory/custom-prompts-server": {
       "desc": "DeepChat встроенный заказ",
       "name": "Пользовательские быстрые слова"
     },
-    "deepchat-inmemory/deep-research-server": {
+    "mcpchat-inmemory/deep-research-server": {
       "desc": "Встроенная подробная исследовательская служба DeepChat на основе поиска BOCHA (обратите внимание, что необходимы для использования длинных контекстов, а модели с недостаточным контекстом могут потерпеть неудачу)",
       "name": "DeepResearch"
     },
-    "deepchat-inmemory/auto-prompting-server": {
+    "mcpchat-inmemory/auto-prompting-server": {
       "name": "Автоматическая генерация шаблонов подсказок",
       "desc": "Автоматически выбирает наиболее подходящий пользовательский шаблон подсказки на основе ввода пользователя и интеллектуально заполняет шаблон подсказки."
     },
-    "deepchat-inmemory/conversation-search-server": {
+    "mcpchat-inmemory/conversation-search-server": {
       "name": "Поиск истории разговоров",
       "desc": "Встроенная служба поиска истории разговоров DeepChat, может искать записи исторических разговоров и содержимое сообщений"
     }

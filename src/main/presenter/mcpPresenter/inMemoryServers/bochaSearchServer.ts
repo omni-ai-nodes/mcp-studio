@@ -102,7 +102,7 @@ export class BochaSearchServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/bocha-search-server',
+        name: 'mcpchat-inmemory/bocha-search-server',
         version: '0.1.2' // 版本更新
       },
       {
@@ -208,7 +208,7 @@ export class BochaSearchServer {
                 type: 'resource',
                 resource: {
                   uri: item.url,
-                  mimeType: 'application/deepchat-webpage', // 保持你的类型
+                  mimeType: 'application/mcpchat-webpage', // 保持你的类型
                   text: JSON.stringify(blobContent)
                 }
               }
@@ -277,7 +277,7 @@ export class BochaSearchServer {
                           type: 'resource',
                           resource: {
                             uri: item.url,
-                            mimeType: 'application/deepchat-webpage', // 保持你的类型
+                            mimeType: 'application/mcpchat-webpage', // 保持你的类型
                             text: JSON.stringify(blobContent)
                           }
                         })

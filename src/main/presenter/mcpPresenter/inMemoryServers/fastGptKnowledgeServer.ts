@@ -91,7 +91,7 @@ export class FastGptKnowledgeServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/fastgpt-knowledge-server',
+        name: 'mcpchat-inmemory/fastgpt-knowledge-server',
         version: '0.1.0'
       },
       {

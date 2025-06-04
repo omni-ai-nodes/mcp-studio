@@ -39,7 +39,7 @@ node generate-version-files.mjs  --version=0.0.6 --notes="版本更新说明"  -
 生成的文件需要上传到服务器的 `/versions/` 目录下，应用将通过以下 URL 检查更新：
 
 ```
-https://deepchat.thinkinai.xyz/auth/{platform}.json
+https://mcpchat.thinkinai.xyz/auth/{platform}.json
 ```
 
 其中 `{platform}` 是当前运行平台的标识符（如 `winx64`、`macarm` 等）。
@@ -53,8 +53,8 @@ https://deepchat.thinkinai.xyz/auth/{platform}.json
   "version": "0.0.5",
   "releaseDate": "2023-06-01",
   "releaseNotes": "版本更新说明",
-  "githubUrl": "https://github.com/ThinkInAIXYZ/deepchat/releases/tag/v0.0.5",
-  "downloadUrl": "https://deepchat.thinkinai.xyz/#/download"
+  "githubUrl": "https://github.com/ThinkInAIXYZ/mcpchat/releases/tag/v0.0.5",
+  "downloadUrl": "https://mcpchat.thinkinai.xyz/#/download"
 }
 ```
 

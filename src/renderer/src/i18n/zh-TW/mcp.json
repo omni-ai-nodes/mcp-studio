@@ -191,19 +191,19 @@
       "desc": "RAGFlow知識庫檢索服務，可以對RAGFlow知識庫內容進行檢索",
       "name": "RAGFlow知識庫檢索"
     },
-    "deepchat-inmemory/custom-prompts-server": {
+    "mcpchat-inmemory/custom-prompts-server": {
       "desc": "DeepChat內置自定義提示詞服務",
       "name": "自定義提示詞"
     },
-    "deepchat-inmemory/deep-research-server": {
+    "mcpchat-inmemory/deep-research-server": {
       "desc": "基於博查搜索的DeepChat內置深度研究服務，（注意需要長上下文模型才能使用，上下文不足的模型可能會失敗）",
       "name": "DeepResearch"
     },
-    "deepchat-inmemory/auto-prompting-server": {
+    "mcpchat-inmemory/auto-prompting-server": {
       "name": "自動模板提示詞",
       "desc": "依據使用者輸入自動選擇最合適的自訂提示詞，並智慧填入提示詞模板"
     },
-    "deepchat-inmemory/conversation-search-server": {
+    "mcpchat-inmemory/conversation-search-server": {
       "name": "對話歷史搜索",
       "desc": "DeepChat內建對話歷史搜索服務，可搜索歷史對話記錄和訊息內容"
     }

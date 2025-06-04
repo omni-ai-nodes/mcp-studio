@@ -12,7 +12,7 @@ const execAsync = promisify(exec)
 export class DevicePresenter implements IDevicePresenter {
   static getDefaultHeaders(): Record<string, string> {
     return {
-      'HTTP-Referer': 'https://deepchatai.cn',
+      'HTTP-Referer': 'https://mcpchatai.cn',
       'X-Title': 'DeepChat'
     }
   }

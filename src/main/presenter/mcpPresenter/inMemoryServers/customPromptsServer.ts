@@ -26,7 +26,7 @@ export class CustomPromptsServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/custom-prompts-server',
+        name: 'mcpchat-inmemory/custom-prompts-server',
         version: '0.1.0'
       },
       {

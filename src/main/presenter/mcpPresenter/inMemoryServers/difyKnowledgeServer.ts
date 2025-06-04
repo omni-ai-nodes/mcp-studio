@@ -102,7 +102,7 @@ export class DifyKnowledgeServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/dify-knowledge-server',
+        name: 'mcpchat-inmemory/dify-knowledge-server',
         version: '0.1.0'
       },
       {

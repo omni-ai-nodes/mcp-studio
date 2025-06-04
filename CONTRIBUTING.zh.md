@@ -40,8 +40,8 @@
 1. 克隆仓库：
 
    ```bash
-   git clone https://github.com/yourusername/deepchat.git
-   cd deepchat
+   git clone https://github.com/yourusername/mcpchat.git
+   cd mcpchat
    ```
 
 2. 安装必要的开发工具:

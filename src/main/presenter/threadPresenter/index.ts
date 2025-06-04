@@ -243,11 +243,11 @@ export class ThreadPresenter implements IThreadPresenter {
       // 检查tool_call_response_raw中是否包含搜索结果
       if (tool_call_response_raw && tool_call === 'end') {
         try {
-          // 检查返回的内容中是否有deepchat-webpage类型的资源
+          // 检查返回的内容中是否有mcpchat-webpage类型的资源
           const hasSearchResults = tool_call_response_raw.content?.some(
             (item: { type: string; resource?: { mimeType: string } }) =>
               item?.type === 'resource' &&
-              item?.resource?.mimeType === 'application/deepchat-webpage'
+              item?.resource?.mimeType === 'application/mcpchat-webpage'
           )
 
           if (hasSearchResults) {
@@ -259,7 +259,7 @@ export class ThreadPresenter implements IThreadPresenter {
                   resource?: { mimeType: string; text: string; uri?: string }
                 }) =>
                   item.type === 'resource' &&
-                  item.resource?.mimeType === 'application/deepchat-webpage'
+                  item.resource?.mimeType === 'application/mcpchat-webpage'
               )
               .map((item: { resource: { text: string; uri?: string } }) => {
                 try {

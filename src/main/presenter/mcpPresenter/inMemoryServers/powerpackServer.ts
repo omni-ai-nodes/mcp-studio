@@ -81,7 +81,7 @@ export class PowerpackServer {
     // 创建服务器实例
     this.server = new Server(
       {
-        name: 'deepchat-inmemory/powerpack-server',
+        name: 'mcpchat-inmemory/powerpack-server',
         version: '0.2.0'
       },
       {

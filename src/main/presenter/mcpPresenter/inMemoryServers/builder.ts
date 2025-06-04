@@ -68,13 +68,13 @@ export function getInMemoryServer(
           }[]
         }
       )
-    case 'deepchat-inmemory/custom-prompts-server':
+    case 'mcpchat-inmemory/custom-prompts-server':
       return new CustomPromptsServer()
-    case 'deepchat-inmemory/deep-research-server':
+    case 'mcpchat-inmemory/deep-research-server':
       return new DeepResearchServer(env)
-    case 'deepchat-inmemory/auto-prompting-server':
+    case 'mcpchat-inmemory/auto-prompting-server':
       return new AutoPromptingServer()
-    case 'deepchat-inmemory/conversation-search-server':
+    case 'mcpchat-inmemory/conversation-search-server':
       return new ConversationSearchServer()
     default:
       throw new Error(`Unknown in-memory server: ${serverName}`)

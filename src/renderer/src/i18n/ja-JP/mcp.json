@@ -148,7 +148,7 @@
       "name": "ファイルシステム"
     },
     "imageServer": {
-      "desc": "開いた後、deepchatのモデルは写真を理解して写真を生成できます。",
+      "desc": "開いた後、mcpchatのモデルは写真を理解して写真を生成できます。",
       "name": "画像サービス"
     },
     "braveSearch": {
@@ -171,19 +171,19 @@
       "name": "FastGPT知識ベース検索",
       "desc": "FastGPT知識ベース検索サービス、FastGPT知識ベースのコンテンツを検索できます"
     },
-    "deepchat-inmemory/custom-prompts-server": {
+    "mcpchat-inmemory/custom-prompts-server": {
       "desc": "Deepchatビルトインカスタムプロンプトワードサービス",
       "name": "カスタムプロンプトワード"
     },
-    "deepchat-inmemory/deep-research-server": {
+    "mcpchat-inmemory/deep-research-server": {
       "desc": "Bocha検索に基づくDeepchatビルトイン詳細な研究サービス（長いコンテキストモデルを使用する必要があり、コンテキストが不十分なモデルが失敗する可能性があることに注意してください）",
       "name": "DeepResearch"
     },
-    "deepchat-inmemory/auto-prompting-server": {
+    "mcpchat-inmemory/auto-prompting-server": {
       "name": "自動テンプレートプロンプト",
       "desc": "ユーザー入力に基づいて最適なカスタムプロンプトを自動的に選択し、プロンプトテンプレートをインテリジェントに埋め込みます。"
     },
-    "deepchat-inmemory/conversation-search-server": {
+    "mcpchat-inmemory/conversation-search-server": {
       "name": "会話履歴検索",
       "desc": "DeepChat内蔵の会話履歴検索サービス、過去の会話記録とメッセージ内容を検索できます"
     }
